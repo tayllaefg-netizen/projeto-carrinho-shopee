@@ -85,9 +85,9 @@ async function displayCart(userCart) {
     console.log(`
 🎀 ITEM ${index + 1}
 💗 Produto : ${item.name}
-💰 Preço   : R$ ${item.price}
+💰 Preço   : R$ ${item.price.toFixed(2)}
 📦 Qtde    : ${item.quantity}x
-🧾 Subtotal: R$ ${item.subtotal()}
+🧾 Subtotal: R$ ${item.subtotal().toFixed(2)}
 -----------------------------
 `);
   });
