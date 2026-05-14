@@ -6,7 +6,6 @@ const myWhishList = [];
 
 console.log("Welcome to the Shopee Cart da Taylla!");
 
-// criando 10 itens femininos
 const item1 = await createItem("Vestido floral", 89.9, 1);
 const item2 = await createItem("Bolsa feminina", 119.9, 1);
 const item3 = await createItem("Sandalia rasteira", 59.9, 1);
@@ -18,7 +17,6 @@ const item8 = await createItem("Blusa feminina", 49.9, 1);
 const item9 = await createItem("Saia jeans", 69.9, 1);
 const item10 = await createItem("Necessaire rosa", 39.9, 1);
 
-// adicionei os itens ao carrinho
 await cartService.addItem(myCart, item1);
 await cartService.addItem(myCart, item2);
 await cartService.addItem(myCart, item3);
