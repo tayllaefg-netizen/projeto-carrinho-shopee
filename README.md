@@ -108,24 +108,6 @@ node src/index.js
 - Cálculo de subtotal e total
 - Organização de responsabilidades por arquivo
 
-
----
-
-
-## 💻 Exemplo de uso
-
-
-```javascript
-const item1 = await createItem("hotwheels ferrari", 20.99, 1);
-const item2 = await createItem("hotwheels lamborghini", 39.99, 3);
-
-
-await cartService.addItem(myCart, item1);
-await cartService.addItem(myCart, item2);
-await cartService.calculateTotal(myCart);
-```
-
-
 ---
 
 
